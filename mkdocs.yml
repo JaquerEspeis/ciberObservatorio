@@ -1,4 +1,6 @@
 site_name: Observatorio de ciberseguridad Costa Rica
+repo_url: https://github.com/JaquerEspeis/ciberObservatorio
+repo_name: JaquerEspeis/ciberObservatorio
 theme:
   name: material
   features:
@@ -41,3 +43,8 @@ theme:
     - pymdownx.emoji:
         emoji_index: !!python/name:materialx.emoji.twemoji
         emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+  - Home: 'index.md'
+  - Proyectos:
+    - Silvia: 'proyectos/silvia.md'
